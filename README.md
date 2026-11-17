@@ -2,6 +2,9 @@
 
 This is an [ExternalDNS provider](https://github.com/kubernetes-sigs/external-dns/blob/master/docs/tutorials/webhook-provider.md) for [Open Telekom Cloud DNS server](https://www.t-cloud-public.com/de/produkte-services/core-services/domain-name-service).
 
+> [!WARNING]
+> This repository will be archived by 01/12/2027. Please refer to the official implementation [ExternalDNS - T-Cloud Public DNS Webhook](https://github.com/opentelekomcloud/external-dns-t-cloud-public-webhook)
+
 ## Installation
 
 This webhook provider is run easiest as sidecar within the `external-dns` pod. This can be achieved using the 
